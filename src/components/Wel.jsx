@@ -5,7 +5,7 @@ const Wel = (props) => {
         <div className='welscreen'>
             <center>
                 <h1>&#128218; Dictionary App</h1>
-                <img className='searchgif' src="searchimage.gif" alt="search img" />
+                <img className='searchgif' src="/englishdictionary/searchimage.gif" alt="search img" />
                 <button onClick={props.callfn}>Search A Word</button>
             </center>
         </div>

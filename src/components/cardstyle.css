@@ -2,6 +2,10 @@ h1{
     margin: 10px;
 }
 
+p,h2{
+    padding-left: 10px;
+}
+
 .partofSpeech{
     color: white;
     /* background-color: black; */
