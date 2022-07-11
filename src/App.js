@@ -24,10 +24,11 @@ function App() {
       for (let i = 0; i < finalData.meanings.length; i++) {
         meaningofWord.push(finalData.meanings[i])
       }
+      const {audio} = finalData.phonetics[1];
       const { word, phonetic } = finalData;
 
       const GatheredData = {
-        sourceUrl, word, phonetic, meaningofWord
+        sourceUrl, word, phonetic, meaningofWord,audio
       }
 
       setinformation(GatheredData);
@@ -47,6 +48,7 @@ function App() {
   useEffect(() => {
     loadData()
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <div className='mainContainer'>

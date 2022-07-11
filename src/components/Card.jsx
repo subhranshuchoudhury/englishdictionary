@@ -3,7 +3,9 @@ import './cardstyle.css'
 
 
 const Card = (props) => {
+    
     const { sourceUrl, meaningofWord, word, phonetic } = props.info;
+    const audioUrl = props.info.audio;
 
 
 
@@ -11,6 +13,13 @@ const Card = (props) => {
         <div className='cardContainer'>
             <h1 className='mainWord'>{word ? word.toUpperCase() : "Loading..."}</h1>
             <p>{phonetic}</p>
+
+            <p>Pronounce: </p>
+            
+            <audio key={Math.random()} controls>
+                <source src={audioUrl} type="audio/ogg">
+                </source></audio>
+                
             {
                 meaningofWord !== undefined ? meaningofWord.map((val, index) => {
                     return <div key={index}>
