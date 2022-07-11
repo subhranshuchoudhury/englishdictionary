@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/englishdictionary/static/css/main.d9d7370f.css",
-    "main.js": "/englishdictionary/static/js/main.926c90c8.js",
+    "main.js": "/englishdictionary/static/js/main.41db16ba.js",
     "index.html": "/englishdictionary/index.html",
     "main.d9d7370f.css.map": "/englishdictionary/static/css/main.d9d7370f.css.map",
-    "main.926c90c8.js.map": "/englishdictionary/static/js/main.926c90c8.js.map"
+    "main.41db16ba.js.map": "/englishdictionary/static/js/main.41db16ba.js.map"
   },
   "entrypoints": [
     "static/css/main.d9d7370f.css",
-    "static/js/main.926c90c8.js"
+    "static/js/main.41db16ba.js"
   ]
 }
